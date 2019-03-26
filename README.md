@@ -25,10 +25,12 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install.packages("widgetcard", repos = "https://cinc.rud.is/")
+# or
 devtools::install_git("https://git.sr.ht/~hrbrmstr/widgetcard")
 # or 
 devtools::install_gitlab("hrbrmstr/widgetcard")
-# or
+# or (if you must)
 devtools::install_github("hrbrmstr/widgetcard")
 ```
 
@@ -43,7 +45,7 @@ vignette](https://rud.is/dl/creating-interactive-player-cards.html).
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
 | HTML |        1 | 0.09 | 370 | 0.47 |          31 | 0.20 |        1 | 0.00 |
 | R    |        7 | 0.64 | 327 | 0.41 |          66 | 0.42 |      168 | 0.48 |
-| Rmd  |        3 | 0.27 |  92 | 0.12 |          61 | 0.39 |      181 | 0.52 |
+| Rmd  |        3 | 0.27 |  93 | 0.12 |          61 | 0.39 |      182 | 0.52 |
 
 ## Code of Conduct
 
