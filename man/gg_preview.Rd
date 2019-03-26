@@ -10,6 +10,8 @@ gg_preview(gg, width = 350/72, height = 196/72, dpi = "retina")
 \item{gg}{ggplot2 plot object}
 
 \item{width, height}{width and height of the preview image. See References for guidelines}
+
+\item{dpi}{see \code{\link[ggplot2:ggsave]{ggplot2::ggsave()}}}
 }
 \value{
 path to the preview image tempfile

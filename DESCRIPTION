@@ -27,7 +27,8 @@ Imports:
     htmlwidgets,
     widgetframe,
     ggplot2,
-    shiny
+    shiny,
+    jsonlite
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr

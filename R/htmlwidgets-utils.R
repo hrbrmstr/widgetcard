@@ -2,6 +2,14 @@
 
 .globals <- new.env(parent = emptyenv())
 
+
+DEFAULT_WIDTH <- 960
+DEFAULT_HEIGHT <- 500
+DEFAULT_PADDING <- 40
+DEFAULT_WIDTH_VIEWER <- 450
+DEFAULT_HEIGHT_VIEWER <- 350
+DEFAULT_PADDING_VIEWER <- 15
+
 # Copied from shiny 0.14.2
 toJSON2 <- function(
   x, ...,  dataframe = "columns", null = "null", na = "null", auto_unbox = TRUE,

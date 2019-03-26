@@ -7,7 +7,7 @@
 card_widget(widget, output_dir = ulid::ulid_generate(),
   name_prefix = "wdgtcrd", preview_img,
   html_title = class(widget)[[1]], card_twitter_handle = "",
-  card_title = title[[1]], card_description = "",
+  card_title = html_title[[1]], card_description = "",
   card_image_url_prefix = "", card_player_url_prefix = "",
   card_player_width = 480, card_player_height = 480,
   background = "white", bundle_type = c("tgz", "zip"))

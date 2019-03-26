@@ -5,6 +5,7 @@
 #'
 #' @param gg ggplot2 plot object
 #' @param width,height width and height of the preview image. See References for guidelines
+#' @param dpi see [ggplot2::ggsave()]
 #' @return path to the preview image tempfile
 #' @references
 #' - <https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card.html>

@@ -10,4 +10,5 @@
 #' @author Bob Rudis (bob@@rud.is)
 #' @import htmltools htmlwidgets widgetframe
 #' @importFrom ggplot2 ggsave
+#' @importFrom jsonlite toJSON
 NULL
