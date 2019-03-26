@@ -4,7 +4,7 @@
 \name{widgetcard}
 \alias{widgetcard}
 \alias{widgetcard-package}
-\title{...}
+\title{Tools to Enable Easier Content Embedding in Tweets}
 \description{
 \itemize{
 \item URL: \url{https://gitlab.com/hrbrmstr/widgetcard}
@@ -14,3 +14,4 @@
 \author{
 Bob Rudis (bob@rud.is)
 }
+\keyword{internal}

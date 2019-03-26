@@ -1,6 +1,6 @@
 Package: widgetcard
 Type: Package
-Title: widgetcard title goes here otherwise CRAN checks fail
+Title: Tools to Enable Easier Content Embedding in Tweets
 Version: 0.1.0
 Date: 2019-03-26
 Authors@R: c(
@@ -8,18 +8,26 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Tools to enable rasier content embedding in tweets.
 URL: https://gitlab.com/hrbrmstr/widgetcard
 BugReports: https://gitlab.com/hrbrmstr/widgetcard/issues
 Encoding: UTF-8
 License: AGPL
 Suggests:
+    ssh,
+    plotly,
     testthat,
-    covr
+    covr,
+    knitr,
+    rmarkdown
 Depends:
     R (>= 3.2.0)
 Imports:
-    httr,
-    jsonlite
+    htmltools,
+    htmlwidgets,
+    widgetframe,
+    ggplot2,
+    shiny
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+VignetteBuilder: knitr
