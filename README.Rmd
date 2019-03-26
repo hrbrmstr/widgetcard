@@ -30,10 +30,12 @@ The following functions are implemented:
 ## Installation
 
 ```{r install-ex, eval=FALSE}
+install.packages("widgetcard", repos = "https://cinc.rud.is/")
+# or
 devtools::install_git("https://git.sr.ht/~hrbrmstr/widgetcard")
 # or 
 devtools::install_gitlab("hrbrmstr/widgetcard")
-# or
+# or (if you must)
 devtools::install_github("hrbrmstr/widgetcard")
 ```
 
