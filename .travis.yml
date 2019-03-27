@@ -2,5 +2,10 @@ language: R
 sudo: false
 cache: packages
 
+addons:
+  apt:
+    packages:
+    - libssh-dev
+
 after_success:
 - Rscript -e 'covr::codecov()'
