@@ -147,6 +147,11 @@ card_widget <- function(widget,
     )
   }
 
+  message(
+    "Make sure ", card_player_url, "works in-browser first, then ",
+    "test it with Twitter's Validator app: https://cards-dev.twitter.com/validator"
+  )
+
   arc_name
 
 }
