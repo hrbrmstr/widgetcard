@@ -1,42 +1,32 @@
 ---
-output: rmarkdown::github_document
-editor_options: 
-  chunk_output_type: inline
+output: 
+  rmarkdown::github_document:
+    df_print: kable
 ---
 ```{r pkg-knitr-opts, include=FALSE}
-knitr::opts_chunk$set(collapse=TRUE, fig.retina=2, message=FALSE, warning=FALSE)
-options(width=120)
+hrbrpkghelpr::global_opts()
 ```
 
-[![Travis-CI Build Status](https://travis-ci.org/hrbrmstr/widgetcard.svg?branch=master)](https://travis-ci.org/hrbrmstr/widgetcard) 
-[![Coverage Status](https://codecov.io/gh/hrbrmstr/widgetcard/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/widgetcard)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/widgetcard)](https://cran.r-project.org/package=widgetcard)
+```{r badges, results='asis', echo=FALSE, cache=FALSE}
+hrbrpkghelpr::stinking_badges()
+```
 
-# widgetcard
-
-Tools to Enable Easier Content Embedding in Tweets
-
-## Description
-
-Tools to Enable Easier Content Embedding in Tweets
+```{r description, results='asis', echo=FALSE, cache=FALSE}
+hrbrpkghelpr::yank_title_and_description()
+```
 
 ## What's Inside The Tin
 
 The following functions are implemented:
 
-- `card_widget`:	Turn an htmlwidget into a web deployable, interactive Twitter card
-- `gg_preview`:	Generate a Twitter Player card preview image from a ggplot2 plot
+```{r ingredients, results='asis', echo=FALSE, cache=FALSE}
+hrbrpkghelpr::describe_ingredients()
+```
 
 ## Installation
 
-```{r install-ex, eval=FALSE}
-install.packages("widgetcard", repos = "https://cinc.rud.is/")
-# or
-devtools::install_git("https://git.sr.ht/~hrbrmstr/widgetcard")
-# or 
-devtools::install_gitlab("hrbrmstr/widgetcard")
-# or (if you must)
-devtools::install_github("hrbrmstr/widgetcard")
+```{r install-ex, results='asis', echo=FALSE, cache=FALSE}
+hrbrpkghelpr::install_block()
 ```
 
 ## Usage
@@ -51,5 +41,4 @@ cloc::cloc_pkg_md()
 
 ## Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
-By participating in this project you agree to abide by its terms.
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.

@@ -1,25 +1,23 @@
 Package: widgetcard
 Type: Package
 Title: Tools to Enable Easier Content Embedding in Tweets
-Version: 0.1.1
-Date: 2019-04-04
+Version: 0.2.0
+Date: 2019-08-14
 Authors@R: c(
     person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: Tools to enable rasier content embedding in tweets.
+Description: Tools to enable easier content embedding in tweets.
 URL: https://gitlab.com/hrbrmstr/widgetcard
 BugReports: https://gitlab.com/hrbrmstr/widgetcard/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests:
     ssh,
     plotly,
     testthat,
-    covr,
-    knitr,
-    rmarkdown
+    covr
 Depends:
     R (>= 3.2.0)
 Imports:
@@ -28,7 +26,9 @@ Imports:
     widgetframe,
     ggplot2,
     shiny,
-    jsonlite
+    jsonlite,
+    knitr,
+    rmarkdown
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr

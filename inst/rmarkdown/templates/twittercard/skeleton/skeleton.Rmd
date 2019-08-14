@@ -1,0 +1,11 @@
+---
+title: "Doc title which will also get passed to the twitter card"
+twitter:
+  description: "Description for Twitter"
+  site: "\\@handle"
+  creator: "\\@handle"
+  image: "https\\:\\/\\/some.image\\/link\\.png"
+output: widgetcard::twitter_document
+---
+
+NOTE That the backslash escapes in the `description`, `site`, `creator`, and `image` metadata params are required to prevent pandoc from turning them into unwanted HTML.

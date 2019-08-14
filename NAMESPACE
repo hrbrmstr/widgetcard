@@ -2,6 +2,7 @@
 
 export(card_widget)
 export(gg_preview)
+export(twitter_document)
 import(htmltools)
 import(htmlwidgets)
 import(widgetframe)
